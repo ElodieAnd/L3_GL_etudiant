@@ -1,0 +1,14 @@
+digraph "/home/elodie/GIT/L3_GL_etudiant/TP_documentation/drunk_player/src" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_68267d1309a1af8e8297ef4c3efbcdba {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_68267d1309a1af8e8297ef4c3efbcdba.html"];
+    dir_68267d1309a1af8e8297ef4c3efbcdba [shape=plaintext label="src"];
+    dir_1efe87189ab19216c4d798e0786b8936 [shape=box label="drunk_player" color="black" fillcolor="white" style="filled" URL="dir_1efe87189ab19216c4d798e0786b8936.html"];
+    dir_89032ae1a79169a87094fa4d3eb48f33 [shape=box label="drunk_player_cli" color="black" fillcolor="white" style="filled" URL="dir_89032ae1a79169a87094fa4d3eb48f33.html"];
+    dir_28cac5e65613ce1c8c8f7c8551c26a73 [shape=box label="drunk_player_gui" color="black" fillcolor="white" style="filled" URL="dir_28cac5e65613ce1c8c8f7c8551c26a73.html"];
+  }
+  dir_89032ae1a79169a87094fa4d3eb48f33->dir_1efe87189ab19216c4d798e0786b8936 [headlabel="2", labeldistance=1.5 headhref="dir_000002_000001.html"];
+  dir_28cac5e65613ce1c8c8f7c8551c26a73->dir_1efe87189ab19216c4d798e0786b8936 [headlabel="1", labeldistance=1.5 headhref="dir_000003_000001.html"];
+}

@@ -35,13 +35,13 @@ install (TARGETS drunk_player_cli.out drunk_player_gui.out
     DESTINATION bin)
 
 # build doxygen documentation
-#find_package(Doxygen)
-#if(DOXYGEN_FOUND)
-#    configure_file(Doxyfile.in ${CMAKE_BINARY_DIR}/Doxyfile)
-#    add_custom_target(doc
-#        ${DOXYGEN_EXECUTABLE} ${CMAKE_BINARY_DIR}/Doxyfile
-#        WORKING_DIRECTORY ${CMAKE_BINARY_DIR})
-#    install(DIRECTORY ${CMAKE_BINARY_DIR}/doc/html 
-#        DESTINATION share/doc/${CMAKE_PROJECT_NAME})
-#endif()
+find_package(Doxygen)
+if(DOXYGEN_FOUND)
+    configure_file(Doxyfile.in ${CMAKE_BINARY_DIR}/Doxyfile)
+    add_custom_target(doc
+        ${DOXYGEN_EXECUTABLE} ${CMAKE_BINARY_DIR}/Doxyfile
+        WORKING_DIRECTORY ${CMAKE_BINARY_DIR})
+    install(DIRECTORY ${CMAKE_BINARY_DIR}/doc/html 
+        DESTINATION share/doc/${CMAKE_PROJECT_NAME})
+endif()
 

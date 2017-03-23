@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/drunk_player/Player.hpp
+drunk_player/Random.hpp
+-
+opencv2/opencv.hpp
+-
+vector
+-
+
+../src/drunk_player/Random.hpp
+random
+-
+
+/home/elodie/GIT/L3_GL_etudiant/TP_documentation/drunk_player/src/drunk_player_gui/drunk_player_gui.cpp
+drunk_player/Player.hpp
+-
+iostream
+-
+

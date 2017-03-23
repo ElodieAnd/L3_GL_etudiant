@@ -1,0 +1,11 @@
+digraph "/home/elodie/GIT/L3_GL_etudiant/TP_documentation/drunk_player/src/drunk_player_cli" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_68267d1309a1af8e8297ef4c3efbcdba {
+    graph [ bgcolor="#ddddee", pencolor="black", label="src" fontname="Helvetica", fontsize="10", URL="dir_68267d1309a1af8e8297ef4c3efbcdba.html"]
+  dir_89032ae1a79169a87094fa4d3eb48f33 [shape=box, label="drunk_player_cli", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_89032ae1a79169a87094fa4d3eb48f33.html"];
+  }
+  dir_1efe87189ab19216c4d798e0786b8936 [shape=box label="drunk_player" URL="dir_1efe87189ab19216c4d798e0786b8936.html"];
+  dir_89032ae1a79169a87094fa4d3eb48f33->dir_1efe87189ab19216c4d798e0786b8936 [headlabel="2", labeldistance=1.5 headhref="dir_000002_000001.html"];
+}

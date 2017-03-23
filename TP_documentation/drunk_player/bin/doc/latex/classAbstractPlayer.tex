@@ -1,0 +1,98 @@
+\hypertarget{classAbstractPlayer}{\section{Abstract\+Player Class Reference}
+\label{classAbstractPlayer}\index{Abstract\+Player@{Abstract\+Player}}
+}
+
+
+{\ttfamily \#include $<$Player.\+hpp$>$}
+
+
+
+Inheritance diagram for Abstract\+Player\+:
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classAbstractPlayer_a4987602a4b3381a9c592585dde7cf33b}{Abstract\+Player} ()
+\item 
+virtual void \hyperlink{classAbstractPlayer_a2091b1757bfd13116dfa4612af55473b}{load\+Folder} (const std\+::string \&folder\+Name)
+\item 
+int \hyperlink{classAbstractPlayer_a8bdc017fb32c90e6635ed6b7491fbe98}{get\+Image\+Size} () const 
+\item 
+virtual bool \hyperlink{classAbstractPlayer_a841896a599ebe6b8317905de78c44bcc}{is\+Finished} () const =0
+\item 
+virtual void \hyperlink{classAbstractPlayer_a5c9a863c96224dd297aa44c69010cd94}{operator$>$$>$} (cv\+::\+Mat \&image)=0
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+std\+::vector$<$ cv\+::\+Video\+Capture $>$ \hyperlink{classAbstractPlayer_a72dd2ef25310decd45671a7d51e1f319}{\+\_\+captures}
+\item 
+int \hyperlink{classAbstractPlayer_a9d8395a141cc985622d4910209bc7d53}{\+\_\+size}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classAbstractPlayer_a4987602a4b3381a9c592585dde7cf33b}{\index{Abstract\+Player@{Abstract\+Player}!Abstract\+Player@{Abstract\+Player}}
+\index{Abstract\+Player@{Abstract\+Player}!Abstract\+Player@{Abstract\+Player}}
+\subsubsection[{Abstract\+Player}]{\setlength{\rightskip}{0pt plus 5cm}Abstract\+Player\+::\+Abstract\+Player (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classAbstractPlayer_a4987602a4b3381a9c592585dde7cf33b}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classAbstractPlayer_a8bdc017fb32c90e6635ed6b7491fbe98}{\index{Abstract\+Player@{Abstract\+Player}!get\+Image\+Size@{get\+Image\+Size}}
+\index{get\+Image\+Size@{get\+Image\+Size}!Abstract\+Player@{Abstract\+Player}}
+\subsubsection[{get\+Image\+Size}]{\setlength{\rightskip}{0pt plus 5cm}int Abstract\+Player\+::get\+Image\+Size (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{classAbstractPlayer_a8bdc017fb32c90e6635ed6b7491fbe98}
+\hypertarget{classAbstractPlayer_a841896a599ebe6b8317905de78c44bcc}{\index{Abstract\+Player@{Abstract\+Player}!is\+Finished@{is\+Finished}}
+\index{is\+Finished@{is\+Finished}!Abstract\+Player@{Abstract\+Player}}
+\subsubsection[{is\+Finished}]{\setlength{\rightskip}{0pt plus 5cm}virtual bool Abstract\+Player\+::is\+Finished (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [pure virtual]}}}\label{classAbstractPlayer_a841896a599ebe6b8317905de78c44bcc}
+
+
+Implemented in \hyperlink{classDrunkPlayer_a9c032dda7df01fafc757fb1f4e265bb4}{Drunk\+Player}.
+
+\hypertarget{classAbstractPlayer_a2091b1757bfd13116dfa4612af55473b}{\index{Abstract\+Player@{Abstract\+Player}!load\+Folder@{load\+Folder}}
+\index{load\+Folder@{load\+Folder}!Abstract\+Player@{Abstract\+Player}}
+\subsubsection[{load\+Folder}]{\setlength{\rightskip}{0pt plus 5cm}void Abstract\+Player\+::load\+Folder (
+\begin{DoxyParamCaption}
+\item[{const std\+::string \&}]{folder\+Name}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{classAbstractPlayer_a2091b1757bfd13116dfa4612af55473b}
+
+
+Reimplemented in \hyperlink{classDrunkPlayer_a235e60ea8a97c4d26277b066c2cebe80}{Drunk\+Player}.
+
+\hypertarget{classAbstractPlayer_a5c9a863c96224dd297aa44c69010cd94}{\index{Abstract\+Player@{Abstract\+Player}!operator$>$$>$@{operator$>$$>$}}
+\index{operator$>$$>$@{operator$>$$>$}!Abstract\+Player@{Abstract\+Player}}
+\subsubsection[{operator$>$$>$}]{\setlength{\rightskip}{0pt plus 5cm}virtual void Abstract\+Player\+::operator$>$$>$ (
+\begin{DoxyParamCaption}
+\item[{cv\+::\+Mat \&}]{image}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}}\label{classAbstractPlayer_a5c9a863c96224dd297aa44c69010cd94}
+
+
+Implemented in \hyperlink{classDrunkPlayer_a2662f5010e15c95ca6639f56f012aed1}{Drunk\+Player}.
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classAbstractPlayer_a72dd2ef25310decd45671a7d51e1f319}{\index{Abstract\+Player@{Abstract\+Player}!\+\_\+captures@{\+\_\+captures}}
+\index{\+\_\+captures@{\+\_\+captures}!Abstract\+Player@{Abstract\+Player}}
+\subsubsection[{\+\_\+captures}]{\setlength{\rightskip}{0pt plus 5cm}std\+::vector$<$cv\+::\+Video\+Capture$>$ Abstract\+Player\+::\+\_\+captures\hspace{0.3cm}{\ttfamily [protected]}}}\label{classAbstractPlayer_a72dd2ef25310decd45671a7d51e1f319}
+\hypertarget{classAbstractPlayer_a9d8395a141cc985622d4910209bc7d53}{\index{Abstract\+Player@{Abstract\+Player}!\+\_\+size@{\+\_\+size}}
+\index{\+\_\+size@{\+\_\+size}!Abstract\+Player@{Abstract\+Player}}
+\subsubsection[{\+\_\+size}]{\setlength{\rightskip}{0pt plus 5cm}int Abstract\+Player\+::\+\_\+size\hspace{0.3cm}{\ttfamily [protected]}}}\label{classAbstractPlayer_a9d8395a141cc985622d4910209bc7d53}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/elodie/\+G\+I\+T/\+L3\+\_\+\+G\+L\+\_\+etudiant/\+T\+P\+\_\+documentation/drunk\+\_\+player/src/drunk\+\_\+player/\hyperlink{Player_8hpp}{Player.\+hpp}\item 
+/home/elodie/\+G\+I\+T/\+L3\+\_\+\+G\+L\+\_\+etudiant/\+T\+P\+\_\+documentation/drunk\+\_\+player/src/drunk\+\_\+player/\hyperlink{Player_8cpp}{Player.\+cpp}\end{DoxyCompactItemize}
